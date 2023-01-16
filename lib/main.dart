@@ -6,10 +6,12 @@ import 'package:sqflite/sqflite.dart';
 
 import 'Account.dart';
 import 'TransactionPage.dart';
+import 'askpassword.dart';
+import 'lockScreen.dart';
 
 void main() {
   runApp(GetMaterialApp(
-    home: MyApp(),
+    home: askpassword(),
   ));
 }
 
@@ -85,6 +87,7 @@ class MyApp extends StatelessWidget {
                 TextButton(onPressed: () {
                   Navigator.pop(context);
                 }, child: Text("Cancel")),
+                Container()
               ],
             );
           },);

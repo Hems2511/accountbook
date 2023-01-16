@@ -38,6 +38,8 @@ dependencies:
   cupertino_icons: ^1.0.2
   get:
   sqflite:
+  flutter_screen_lock:
+  shared_preferences:
 
 dev_dependencies:
   flutter_test:
